@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@plugin 'flowbite/plugin';
+
+/* Dark theme */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #eeeeee;
+  --color-secondary: #686d76;
+  --color-tertiary: #dc5f00;
+  --color-tertiary-text: #eeeeee;
+  --color-quaternary: #373a40;
+  --color-quaternary-text: #eeeeee;
+
+  --color-primary-highlight: #dddcdc;
+  --color-secondary-highlight: #707378;
+  --color-tertiary-highlight: #d69a6c;
+  --color-quaternary-highlight: #3e3f42;
+}
+
+.dark {
+  --color-primary-highlight: #242930;
+  --color-secondary-highlight: #32363c;
+  --color-tertiary-highlight: #8dadae;
+  --color-tertiary-text: #eeeeee;
+  --color-quaternary-highlight: #32363c;
+  --color-quaternary-text: #32363c;
+
+  --color-primary: #222831;
+  --color-secondary: #31363f;
+  --color-tertiary: #76abae;
+  --color-quaternary: #eeeeee;
+}
+
+@source "../node_modules/flowbite-svelte/dist";
+@source "../node_modules/flowbite-svelte-icons/dist";
+
+@layer base {
+  /* disable chrome cancel button */
+  input[type='search']::-webkit-search-cancel-button {
+    display: none;
+  }
+}
+
+body {
+  color: var(--color-quaternary);
+  background-color: var(--color-primary);
+}
+
+* {
+  --tw-duration: 200ms;
+  transition-duration: 200ms;
+  transition-property: margin, padding, color, background-color;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function) /* cubic-bezier(0.4, 0, 0.2, 1) */
+  );
+  transition-duration: var(--tw-duration, var(--default-transition-duration) /* 150ms */);
+}
+
+/* Utility: center-horizontal */
+.center-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Utility: centered-column */
+.centered-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem; /* space between cards */
+  width: 100%;
+  max-width: 500px;
+}

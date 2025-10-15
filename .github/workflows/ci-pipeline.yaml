@@ -1,0 +1,44 @@
+name: 📦 CI/CD
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+env:
+  CI: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: 🧪 test ttrpg.tech
+    steps:
+      - name: 📦 Checkout Repository
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+
+      - name: 🔨 Set npm
+        uses: actions/setup-node@v5
+        with:
+          node-version-file: package.json
+          cache-dependency-path: package-lock.json
+
+      - name: ⚒️ Setup project
+        run: npm ci
+
+      - name: 🛠️ Build
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: 🎭 Playwright
+        run: npx playwright install
+        env:
+          NODE_ENV: production
+
+      - name: 📋 Test
+        run: npm run test
+        env:
+          NODE_ENV: production
