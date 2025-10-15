@@ -53,7 +53,7 @@
             Social Media
           </h2>
           <FooterLinkGroup>
-            <FooterLink liClass="mb-4" href="https://github.com/daanv2">GitHub</FooterLink>
+            <FooterLink liClass="mb-4" href="https://github.com/DaanV2/ttrpg.tech">GitHub</FooterLink>
           </FooterLinkGroup>
         </div>
         <div>
@@ -66,9 +66,9 @@
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
     <div class="sm:flex sm:items-center sm:justify-between">
-      <FooterCopyright href="https://github.com/daanv2" by="DaanV2" />
+      <FooterCopyright href="https://github.com/DaanV2/ttrpg.tech" by="DaanV2" />
       <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center rtl:space-x-reverse">
-        <FooterIcon href="https://github.com/daanv2">
+        <FooterIcon href="https://github.com/DaanV2/ttrpg.tech">
           <GithubSolid
             class="h-5 w-5 text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white"
           />
