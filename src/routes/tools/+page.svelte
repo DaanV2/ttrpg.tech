@@ -16,5 +16,10 @@
       title="Tablelizer"
       text="Turn any list of items into a rollable table"
     />
+    <SimpleCard
+      href="/tools/initiative"
+      title="Initiative tracker"
+      text="track your combat initiative"
+    />
   </div>
 </div>
