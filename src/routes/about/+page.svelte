@@ -1,10 +1,26 @@
 <script>
-  import { Card, Hr, Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell } from 'flowbite-svelte';
+  import {
+    Card,
+    Hr,
+    Table,
+    TableBody,
+    TableBodyCell,
+    TableBodyRow,
+    TableHead,
+    TableHeadCell
+  } from 'flowbite-svelte';
   import SimpleCard from '../../lib/components/cards/SimpleCard.svelte';
 </script>
 
 <svelte:head>
   <title>About</title>
+  <description>About ttrpg.tech - Tools and Generators for Tabletop RPGs</description>
+  <meta property="og:title" content="About ttrpg.tech" />
+  <meta
+    property="og:description"
+    content="About ttrpg.tech - Tools and Generators for Tabletop RPGs"
+  />
+  <meta property="og:type" content="website" />
 </svelte:head>
 
 <div class="center-horizontal">
@@ -24,55 +40,109 @@
       <TableBody>
         <TableBodyRow>
           <TableBodyCell>ttrpg.tech</TableBodyCell>
-          <TableBodyCell><span class="font-mono">private</span> and not for commercial use.</TableBodyCell>
+          <TableBodyCell
+            ><span class="font-mono">private</span> and not for commercial use.</TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Svelte</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/sveltejs/svelte/blob/master/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/sveltejs/svelte/blob/master/LICENSE" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>TailwindCSS</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a
+              href="https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE"
+              target="_blank">MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Flowbite &amp; Flowbite Svelte</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/themesberg/flowbite/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/themesberg/flowbite/blob/main/LICENSE" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Flowbite Svelte Icons</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/joeldesante/flowbite-svelte-icons/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a
+              href="https://github.com/joeldesante/flowbite-svelte-icons/blob/main/LICENSE"
+              target="_blank">MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Flowbite Typography</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/themesberg/flowbite-typography/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a
+              href="https://github.com/themesberg/flowbite-typography/blob/main/LICENSE"
+              target="_blank">MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Playwright</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/microsoft/playwright/blob/main/LICENSE" target="_blank">Apache-2.0 License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/microsoft/playwright/blob/main/LICENSE" target="_blank"
+              >Apache-2.0 License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>ESLint &amp; plugins</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/eslint/eslint/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/eslint/eslint/blob/main/LICENSE" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Prettier &amp; plugins</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/prettier/prettier/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/prettier/prettier/blob/main/LICENSE" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>TypeScript</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt" target="_blank">Apache-2.0 License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt" target="_blank"
+              >Apache-2.0 License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Vite</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/vitejs/vite/blob/main/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/vitejs/vite/blob/main/LICENSE" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Globals</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/sindresorhus/globals/blob/main/license" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a href="https://github.com/sindresorhus/globals/blob/main/license" target="_blank"
+              >MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
         <TableBodyRow>
           <TableBodyCell>Svelte Check</TableBodyCell>
-          <TableBodyCell><a href="https://github.com/sveltejs/language-tools/blob/master/LICENSE" target="_blank">MIT License</a></TableBodyCell>
+          <TableBodyCell
+            ><a
+              href="https://github.com/sveltejs/language-tools/blob/master/LICENSE"
+              target="_blank">MIT License</a
+            ></TableBodyCell
+          >
         </TableBodyRow>
       </TableBody>
     </Table>

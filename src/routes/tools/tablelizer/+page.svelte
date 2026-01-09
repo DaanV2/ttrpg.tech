@@ -81,6 +81,15 @@
 
 <svelte:head>
   <title>Tablelizer</title>
+  <meta property="og:title" content="Tablelizer | TTRPG.tech" />
+  <meta
+    property="og:description"
+    content="Turn any list of items into a rollable table for your RPG sessions."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ttrpg.tech/tools/tablelizer/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tablelizer | TTRPG.tech" />
 </svelte:head>
 
 <div class="flex w-full flex-col">
@@ -108,7 +117,7 @@
     <Hr class="mx-auto my-4 h-1 w-48 rounded-sm md:my-10" />
 
     <Table striped hoverable shadow divClass="w-full sm:w-3/5" class="rounded">
-      <TableHead class="bg-tertiary text-tertiary-text" >
+      <TableHead class="bg-tertiary text-tertiary-text">
         <TableHeadCell>Roll d{dice}</TableHeadCell>
         <TableHeadCell>Action</TableHeadCell>
       </TableHead>

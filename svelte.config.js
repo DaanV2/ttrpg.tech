@@ -20,7 +20,10 @@ const config = {
       precompress: false,
       strict: true,
       trailingSlash: true
-    })
+    }),
+    prerender: {
+      entries: ['*', '/calendar/1']
+    }
   }
 };
 

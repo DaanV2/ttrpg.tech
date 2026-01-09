@@ -21,6 +21,15 @@
   let { children } = $props();
 </script>
 
+<svelte:head>
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1931225316312154"
+    crossorigin="anonymous"
+  ></script>
+  <meta name="google-adsense-account" content="ca-pub-1931225316312154" />
+</svelte:head>
+
 <div class="layout-wrapper">
   <Navbar class="bg-tertiary ">
     <NavBrand href="/">
@@ -53,7 +62,9 @@
             Social Media
           </h2>
           <FooterLinkGroup>
-            <FooterLink liClass="mb-4" href="https://github.com/DaanV2/ttrpg.tech">GitHub</FooterLink>
+            <FooterLink liClass="mb-4" href="https://github.com/DaanV2/ttrpg.tech"
+              >GitHub</FooterLink
+            >
           </FooterLinkGroup>
         </div>
         <div>
