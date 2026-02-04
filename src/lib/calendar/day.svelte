@@ -10,12 +10,12 @@
     /** The name of the month this day belongs to */
     month_name: string;
     /** The index of the day in the month */
-    day_index: number;
+    day_of_month: number;
     /** The index of the day in the year */
     day_of_year: number;
   }
 
-  let { day_name, month_name, day_index, day_of_year }: Props = $props();
+  let { day_name, month_name, day_of_month, day_of_year }: Props = $props();
   let highlight_day = $state(false);
 
   $effect.pre(() => {
@@ -48,10 +48,11 @@
 <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
-  class="day sm flex flex-col min-h-[70px] w-full aspect-square p-2 shadow-2xs"
+  class="sm flex aspect-auto min-h-[90px] w-full flex-col p-2 shadow-2xs hover:shadow-md hover:cursor-pointer"
   class:vip={highlight_day}
+  data-even={day_of_month % 2 === 0 ? 'true' : 'false'}
   id={`day_${day_of_year}`}
-  title={`${day_name}, ${day_index}th day of the month: ${month_name.slice(3).trim()}`}
+  title={`${day_name}, ${day_of_month}th day of the month: ${month_name.slice(3).trim()}`}
   tabindex={day_of_year + 1}
   aria-labelledby={`highlight or unhighlight day: ${day_of_year}`}
   aria-roledescription="highlight"
@@ -77,7 +78,7 @@
       {day_name}
     </h2>
     <ul class="mb-4 py-2 text-sm font-light">
-      <li>{day_index}th day of the month</li>
+      <li>{day_of_month}th day of the month</li>
       <li>{day_of_year}th day of the year</li>
       <li>month: {month_name.slice(3).trim()}</li>
     </ul>
@@ -87,6 +88,19 @@
 <style>
   .non_critical {
     font-size: small;
+  }
+
+  [data-even='true'] {
+    background-color: var(--color-gray-100);
+  }
+  :global(.dark) [data-even='true'] {
+    background-color: var(--color-gray-800);
+  }
+  [data-even='false'] {
+    background-color: var(--color-white);
+  }
+  :global(.dark) [data-even='false'] {
+    background-color: var(--color-gray-700);
   }
 
   @media (max-width: 1000px) {

@@ -2,12 +2,11 @@
   import { page } from '$app/state';
   import Month from '$lib/calendar/month.svelte';
   import { Hr } from 'flowbite-svelte';
-    import { months } from '../../lib/calendar/month-functionts';
+  import { months } from '../../lib/calendar/month-functionts';
 
   let day_indexes: number[] = $state([]);
   const days_in_week = 7;
   const days_in_month = days_in_week * 4;
-
 
   $effect.pre(() => {
     day_indexes = page.url.searchParams
