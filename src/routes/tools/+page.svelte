@@ -5,14 +5,14 @@
 
 <svelte:head>
   <title>Tools</title>
-  <meta property="og:title" content="Tools | TTRPG.tech" />
-  <meta property="og:description" content="Discover useful tools for tabletop RPGs on TTRPG.tech." />
+  <meta property="og:title" content="Tools | TTRPG Tools" />
+  <meta property="og:description" content="Discover useful tools for tabletop RPGs on TTRPG Tools." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ttrpg.tech/tools/" />
+  <meta property="og:url" content="https://ttrpgtools.org/tools/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Tools | TTRPG.tech" />
-  <meta name="twitter:description" content="Discover useful tools for tabletop RPGs on TTRPG.tech." />
-  <meta name="description" content="Discover useful tools for tabletop RPGs on TTRPG.tech." />
+  <meta name="twitter:title" content="Tools | TTRPG Tools" />
+  <meta name="twitter:description" content="Discover useful tools for tabletop RPGs on TTRPG Tools." />
+  <meta name="description" content="Discover useful tools for tabletop RPGs on TTRPG Tools." />
 </svelte:head>
 
 <div class="center-horizontal divide-dashed">

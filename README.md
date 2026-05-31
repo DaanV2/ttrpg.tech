@@ -1,4 +1,4 @@
-# TTRPG.tech
+# TTRPG Tools Website
 
 A static, client side website for all kinds of ttrpg generators, tools and more
 

@@ -14,11 +14,11 @@
 
 <svelte:head>
   <title>About</title>
-  <description>About ttrpg.tech - Tools and Generators for Tabletop RPGs</description>
-  <meta property="og:title" content="About ttrpg.tech" />
+  <description>About ttrpgtools - Tools and Generators for Tabletop RPGs</description>
+  <meta property="og:title" content="About ttrpgtools" />
   <meta
     property="og:description"
-    content="About ttrpg.tech - Tools and Generators for Tabletop RPGs"
+    content="About ttrpgtools - Tools and Generators for Tabletop RPGs"
   />
   <meta property="og:type" content="website" />
 </svelte:head>
@@ -28,7 +28,7 @@
   <Hr class="mx-auto my-4 h-1 w-48 rounded-sm md:my-10" />
   <div class="centered-column">
     <SimpleCard
-      title="Welcome to ttrpg.tech!"
+      title="Welcome to ttrpg tools!"
       text="This project is a personal project to provide tools and generators for tabletop
           games that I play. Built with SvelteKit, TailwindCSS, Flowbite and playwright"
     />
@@ -39,7 +39,7 @@
       </TableHead>
       <TableBody>
         <TableBodyRow>
-          <TableBodyCell>ttrpg.tech</TableBodyCell>
+          <TableBodyCell>ttrpg tools</TableBodyCell>
           <TableBodyCell
             ><span class="font-mono">private</span> and not for commercial use.</TableBodyCell
           >

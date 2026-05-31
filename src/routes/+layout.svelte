@@ -30,7 +30,7 @@
     <NavBrand href="/">
       <!-- <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" /> -->
       <span class="self-center text-xl font-semibold whitespace-nowrap text-white dark:text-white"
-        >ttrpg.tech</span
+        >ttrpg tools</span
       >
     </NavBrand>
     <NavHamburger />

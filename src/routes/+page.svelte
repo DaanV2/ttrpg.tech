@@ -8,13 +8,13 @@
 </svelte:head>
 
 <div class="center-horizontal">
-  <title>TTRPG.tech</title>
-  <meta property="og:title" content="TTRPG.tech" />
+  <title>TTRPG Tools</title>
+  <meta property="og:title" content="TTRPG Tools" />
   <meta property="og:description" content="Tools and generators for tabletop RPGs." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ttrpg.tech/" />
+  <meta property="og:url" content="https://ttrpgtools.org/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="TTRPG.tech" />
+  <meta name="twitter:title" content="TTRPG tools" />
   <meta name="twitter:description" content="Tools and generators for tabletop RPGs." />
   <meta name="description" content="Tools and generators for tabletop RPGs." />
   <h1 class="p-5 text-4xl">Choose your adventure</h1>

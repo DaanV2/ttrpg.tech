@@ -81,15 +81,15 @@
 
 <svelte:head>
   <title>Tablelizer</title>
-  <meta property="og:title" content="Tablelizer | TTRPG.tech" />
+  <meta property="og:title" content="Tablelizer | TTRPG Tools" />
   <meta
     property="og:description"
     content="Turn any list of items into a rollable table for your RPG sessions."
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ttrpg.tech/tools/tablelizer/" />
+  <meta property="og:url" content="https://ttrpgtools.org/tools/tablelizer/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Tablelizer | TTRPG.tech" />
+  <meta name="twitter:title" content="Tablelizer | TTRPG Tools" />
 </svelte:head>
 
 <div class="flex w-full flex-col">

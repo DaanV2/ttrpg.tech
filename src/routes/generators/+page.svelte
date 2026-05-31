@@ -4,13 +4,13 @@
 </script>
 
 <svelte:head>
-  <title>Generators | TTRPG.tech</title>
-  <meta property="og:title" content="Generators | TTRPG.tech" />
+  <title>Generators | TTRPG Tools</title>
+  <meta property="og:title" content="Generators | TTRPG Tools" />
   <meta property="og:description" content="Generate spellbooks and other resources for tabletop RPGs." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ttrpg.tech/generators/" />
+  <meta property="og:url" content="https://ttrpgtools.org/generators/" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Generators | TTRPG.tech" />
+  <meta name="twitter:title" content="Generators | TTRPG Tools" />
   <meta name="twitter:description" content="Generate spellbooks and other resources for tabletop RPGs." />
   <meta name="description" content="Generate spellbooks and other resources for tabletop RPGs." />
 </svelte:head>

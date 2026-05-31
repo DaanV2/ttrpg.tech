@@ -48,7 +48,7 @@
 <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
-  class="sm flex aspect-auto min-h-[90px] w-full flex-col p-2 shadow-2xs hover:shadow-md hover:cursor-pointer"
+  class="day sm flex aspect-auto min-h-[90px] w-full flex-col p-2 shadow-2xs hover:shadow-md hover:cursor-pointer"
   class:vip={highlight_day}
   data-even={day_of_month % 2 === 0 ? 'true' : 'false'}
   id={`day_${day_of_year}`}

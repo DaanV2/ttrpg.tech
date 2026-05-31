@@ -34,7 +34,7 @@
   <meta name="description" property="og:description" content="A 13 month calendar" />
   <meta name="type" property="og:type" content="website" />
   <meta property="og:title" content="Calendar" />
-  <meta property="og:url" content="https://ttrpg.tech/calendar/" />
+  <meta property="og:url" content="https://ttrpgtools.org/calendar/" />
   <meta property="og:type" content="website" />
 </svelte:head>
 
