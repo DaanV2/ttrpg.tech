@@ -22,7 +22,7 @@
     highlight_day = page.url.searchParams.has('day_index', `${day_of_year}`);
   });
 
-  const [moon1, moon2, moon3] = allMoonsAt(day_of_year);
+  const [moon1, moon2, moon3] = $derived(allMoonsAt(day_of_year));
 
   function highlightDay() {
     if (highlight_day) {
