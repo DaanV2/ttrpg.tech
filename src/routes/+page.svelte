@@ -20,8 +20,9 @@
   <h1 class="p-5 text-4xl">Choose your adventure</h1>
   <Hr class="mx-auto my-4 h-1 w-48 rounded-sm md:my-10" />
   <div class="centered-column">
+    <SimpleCard href="/articles" title="Articles" />
     <SimpleCard href="/calendar" title="Calendar" />
-    <SimpleCard href="/tools" title="Tools" />
     <SimpleCard href="/generators" title="Generators" />
+    <SimpleCard href="/tools" title="Tools" />
   </div>
 </div>
